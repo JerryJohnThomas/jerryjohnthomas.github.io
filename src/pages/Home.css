@@ -18,6 +18,7 @@
     /* background-color: azure; */
     text-align: center;
     line-height: 0.9; 
+    letter-spacing: -2px;
 }
 
 .header_subtitle{
@@ -26,4 +27,25 @@
     font-weight:  400;
     line-height: 24px;
     padding-bottom: 30px;
+}
+
+/* chatgpt generated phone css */
+/* Media query for phone screens */
+@media (max-width: 600px) {
+    .header_container {
+        font-size: 54px;
+        /* Adjust the font size for smaller screens */
+        height: 20vh; /* Adjust the height for smaller screens */
+        padding: 20vh 0 10vh 0; /* Adjust the padding for smaller screens */
+    }
+
+    .header_text {
+        line-height: 1.1; /* Adjust line-height for better readability on smaller screens */
+    }
+
+    .header_subtitle {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+        line-height: 20px; /* Adjust the line-height for smaller screens */
+        padding-bottom: 20px; /* Adjust the padding for smaller screens */
+    }
 }

@@ -3,7 +3,8 @@ import "./Home.css";
 import Sample from "./Sample";
 import Sample2 from "./Sample2";
 import Navbar from "./Navbar";
-
+import Card from "../Components/Card";
+import projectsData from "../projectsData";
 function Home() {
     return (
         <>
@@ -17,6 +18,13 @@ function Home() {
                             <br />
                             EXPERIMENTS
                         </div>
+                    </div>
+                </div>
+                <div className="page2">
+                    <div className="card-container">
+                        {projectsData.map((data, id) => {
+                            return <Card data={data} key={id} />;
+                        })}
                     </div>
                 </div>
             </div>

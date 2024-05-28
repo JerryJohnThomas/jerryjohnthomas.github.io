@@ -1,0 +1,79 @@
+.card {
+    /* background-color: white; */
+    background-color: orange;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    /* padding: 16px; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card-image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: yellowgreen;
+    height: 100%;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%;
+    
+    /* object-fit: fill; */
+    transition: transform 0.3s ease;
+  }
+  
+  .card-image-container:hover .card-image {
+    transform: scale(1.1);
+  }
+  
+  .card-title {
+    /* background-color: yellowgreen; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    font-family: "Inter Tight";
+    font-size: 64px;
+    font-weight:  400;
+    letter-spacing: -2px;
+  }
+  
+  .card-content {
+    font-size: 16px;
+    color: #333;
+    margin-top: 16px;
+  }
+  
+
+/* Card container in Home.js */
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 16px;
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .card-title {
+    
+        font-size: 34px;
+        font-weight:  400;
+        letter-spacing: -1px;
+      }
+      
+}
