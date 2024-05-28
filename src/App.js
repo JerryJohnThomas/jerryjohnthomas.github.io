@@ -11,7 +11,7 @@ function App() {
                 {/* <Route path="/" element={<World />} /> */}
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
-                <Route path="/starterreacttemplate" element={<Home />} />
+                <Route path="/jerrygameagents" element={<Home />} />
                 {/* <Route path="/ProceduralGeneration_RL" element={<Home />} /> */}
                 <Route path="/*" element={<Page404 />} />
             </Routes>
