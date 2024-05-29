@@ -1,0 +1,25 @@
+.project-details {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .project-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .project-details .tags {
+    margin-top: 20px;
+  }
+  
+  .project-details .tag {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
