@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jerrygameagents/static/css/main.c4eef500.css",
-    "main.js": "/jerrygameagents/static/js/main.4e6a1796.js",
+    "main.js": "/jerrygameagents/static/js/main.9593ad78.js",
     "static/js/453.7f8bd57f.chunk.js": "/jerrygameagents/static/js/453.7f8bd57f.chunk.js",
     "index.html": "/jerrygameagents/index.html",
     "main.c4eef500.css.map": "/jerrygameagents/static/css/main.c4eef500.css.map",
-    "main.4e6a1796.js.map": "/jerrygameagents/static/js/main.4e6a1796.js.map",
+    "main.9593ad78.js.map": "/jerrygameagents/static/js/main.9593ad78.js.map",
     "453.7f8bd57f.chunk.js.map": "/jerrygameagents/static/js/453.7f8bd57f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4eef500.css",
-    "static/js/main.4e6a1796.js"
+    "static/js/main.9593ad78.js"
   ]
 }
