@@ -23,7 +23,7 @@ function Home() {
                 <div className="page2">
                     <div className="card-container">
                         {projectsData.map((data, id) => {
-                            return <Card data={data} key={id} />;
+                            return <Card data={data} key={id} id={id} />;
                         })}
                     </div>
                 </div>

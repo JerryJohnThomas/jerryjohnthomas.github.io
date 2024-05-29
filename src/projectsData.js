@@ -25,7 +25,8 @@ const projectsData = [
       oneWord: "AI 2048",
       title: "2048 via Heuristics",
       link: "https://inspiring-easley-8e7bf9.netlify.app/",
-      pic: "images/2048.png",
+      // pic: "images/2048.png",
+      pic: "images/2048_hd_gray.png",
       description: "This is a brief description of Flappy Bird."
     },
     {
@@ -53,21 +54,22 @@ const projectsData = [
       oneWord: "Sine Wave ",
       title: "Sine Wave simulation ",
       link: "https://flamboyant-noyce-415776.netlify.app/",
-      pic: "images/sine1.png",
+      pic: "images/sine4_blueinverted.png",
       description: "This is a brief description of Flappy Bird."
     },
     {
       oneWord: "RN Animation",
       title: "React Native Animation Series - Medium",
       link: "https://medium.com/@jerryjohnthomas/list/react-native-animations-bebaf1e64d4c",
-      pic: "images/Med_RN_Animation.png",
+      pic: "images/RN_Animations.jpeg",
       description: "This is a brief description of Flappy Bird."
     },
     {
       oneWord: "RL Series",
       title: "Reinforcement Learning Series - Medium ",
-      link: " https://medium.com/@jerryjohnthomas/list/reinforcement-learning-series-season-1-6fc57525318e",
-      pic: "images/Med_RL_series1.png",
+      link: "https://medium.com/@jerryjohnthomas/list/reinforcement-learning-series-season-1-6fc57525318e",
+      pic: "images/RL.jpeg",
+      // pic: "images/Med_RL_series1.png",
       description: "This is a brief description of Flappy Bird."
     },
 
