@@ -22,7 +22,7 @@ function Card({ data, id }) {
                     <div className="circle_arrow">
                         <GoArrowUpRight size={25} />
                     </div>
-                    <img src={data.pic} alt={data.title} className="card-image" />
+                    <img src={`${process.env.PUBLIC_URL}/${data.pic}`} alt={data.title} className="card-image" />
                     <div className="card-title">{data.oneWord}</div>
                 </div>
                 <p className="card-content">{data.descriptioncontent}</p>

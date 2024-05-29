@@ -19,7 +19,7 @@ const projectsData = [
       title: "Flappy Bird via NEAT",
       link: "https://romantic-bhaskara-dc0b13.netlify.app/",
       pic: "images/flappy.png",
-      description: "This is a brief description of Flappy Bird.",
+      description: "This is a brief description of Flappy Bird.This is a brief description of Flappy Bird.This is a brief description of Flappy Bird.This is a brief description of Flappy Bird.",
       goto: "flappybird",
       tags: ["cool","AI"],
     },
