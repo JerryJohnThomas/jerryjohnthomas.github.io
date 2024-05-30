@@ -5,6 +5,7 @@ import Sample2 from "./Sample2";
 import Navbar from "./Navbar";
 import Card from "../Components/Card";
 import projectsData from "../projectsData";
+import Footer from "./Footer";
 function Home() {
     return (
         <>
@@ -27,6 +28,7 @@ function Home() {
                         })}
                     </div>
                 </div>
+                <Footer />
             </div>
         </>
     );

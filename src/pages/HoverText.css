@@ -1,0 +1,43 @@
+.hover-text-container {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-text {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.hover-text::before {
+  content: attr(data-hover);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: transparent;
+  transition: color 0.3s ease, transform 0.3s ease;
+  transform: translateX(-100%);
+}
+
+.hover-text-container:hover .hover-text::before {
+  color: black;
+  transform: translateX(0);
+}
+
+.hover-text::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.hover-text-container:hover .hover-text::after {
+  transform: scaleX(1);
+}
