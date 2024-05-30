@@ -28,12 +28,6 @@
     padding-bottom: 30px;
 }
 
-@media (max-width: 1600px) {
-    .header_container {
-        margin: 10vh 0 20vh;
-        /* background-color: orange; */
-    }
-}
 
 /* chatgpt generated phone css */
 /* Media query for phone screens */
@@ -55,3 +49,11 @@
         padding-bottom: 20px; /* Adjust the padding for smaller screens */
     }
 }
+
+
+
+ @media (min-width: 1000px) {
+    .header_container {
+        margin: 20vh 0 23vh;
+    }
+} 
