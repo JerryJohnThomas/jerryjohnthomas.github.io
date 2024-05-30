@@ -62,3 +62,8 @@
         margin: 20vh 0 23vh;
     }
 }
+
+.home_title_container{
+    /* background-color: orange; */
+    overflow: hidden;
+}

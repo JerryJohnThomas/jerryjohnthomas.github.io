@@ -40,7 +40,7 @@ const projectsData = [
       pic: "images/procedural1.png",
       description: "Procedural Content Generation via Adversarial Reinforcement Learning, both the platform generator and the player are RL agents trying to figure out how things work. More Details in the Site. ",
       goto: "advRL",
-      tags: ["RL","Generation", "In Progress"],
+      tags: ["RL","Generation"],
 
     },
     {
