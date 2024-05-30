@@ -9,7 +9,7 @@ function Card({ data, id }) {
     return (
         <div className="card">
             <Link to={`project/${data.goto}`}>
-                <div className="card-image-container">
+                <div className="card-image-container border_addon">
                     <div className="tags_container">
                         {data.tags.map((tag, tag_id) => {
                             return (

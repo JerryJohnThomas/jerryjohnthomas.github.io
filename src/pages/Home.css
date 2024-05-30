@@ -28,7 +28,6 @@
     padding-bottom: 30px;
 }
 
-
 /* chatgpt generated phone css */
 /* Media query for phone screens */
 @media (max-width: 600px) {
@@ -37,6 +36,7 @@
         /* Adjust the font size for smaller screens */
         height: 20vh; /* Adjust the height for smaller screens */
         padding: 20vh 0 10vh 0; /* Adjust the padding for smaller screens */
+        margin: 10vh 0 12vh;
     }
 
     .header_text {
@@ -50,10 +50,15 @@
     }
 }
 
+.border_addon {
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
 
-
- @media (min-width: 1000px) {
+@media (min-width: 1000px) {
     .header_container {
         margin: 20vh 0 23vh;
     }
-} 
+}
