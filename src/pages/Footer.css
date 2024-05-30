@@ -30,16 +30,15 @@
     font-weight: 400;
     font-size: 32px;
 }
-.hover-text{
+.hover-text {
 }
 
 .hover-text1::before,
-.hover-text2::after
- {
+.hover-text2::after {
     content: "";
-    position: absolute; 
+    position: absolute;
     left: 0;
-    bottom: -5px; 
+    bottom: -5px;
     width: 10px;
     height: 2px;
     background-color: orange;
@@ -48,7 +47,31 @@
     transition: transform 0.3s ease;
 }
 
-
 .connect_links:hover .hover-text1::after {
-    transform: scaleX(1); 
-  }
+    transform: scaleX(1);
+}
+
+@media (max-width: 800px) {
+    .connect_links {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        text-transform: uppercase;
+        justify-content: space-between;
+        align-items: space;
+        font-family: "Roboto Mono", monospace;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .footer_title {
+        font-size: 24px;
+        margin: 10px 0 40px;
+
+    }
+    .footer_container {
+        padding: 5vw 10vw;
+        margin-bottom: 20px;
+        /* margin-left: 5vw; */
+    }
+}
