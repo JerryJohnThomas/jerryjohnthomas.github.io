@@ -13,6 +13,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/jerrygameagents" element={<Home />} />
+                <Route path="jerrygameagents/project/:goto" element={<ProjectDetails />} />
                 <Route path="/project/:goto" element={<ProjectDetails />} />
                 {/* <Route path="/ProceduralGeneration_RL" element={<Home />} /> */}
                 <Route path="*" element={<Page404 />} />

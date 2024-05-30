@@ -64,7 +64,7 @@ const projectsData = [
     {
       oneWord: "Sine Wave ",
       title: "Sine Wave simulation ",
-      link: "https://flamboyant-noyce-415776.netlify.app/",
+      link: "https://epic-lamarr-9b2fd1.netlify.app/",
       pic: "images/sine4_blueinverted.png",
       description: "Sine Wave using threejs, inspired from twitter and coding train",
       goto:"sine",
