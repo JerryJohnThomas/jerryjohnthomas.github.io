@@ -4,6 +4,7 @@ import projectsData from "../projectsData";
 import Navbar from "../pages/Navbar";
 import "./ProjectDetails.css";
 import { GoArrowUpRight } from "react-icons/go";
+import { useEffect } from "react";
 
 function ProjectDetails() {
     const { goto } = useParams();
