@@ -90,10 +90,16 @@
         /* background-color: green; */
     }
 
+    .te_left_together div {
+        margin-right: 0px;
+    }
+
+    
     .te_left_together{
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+        width: 60%;
     }
     .te_left_together div{
         margin-bottom: 5px;
