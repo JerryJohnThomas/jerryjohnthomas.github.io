@@ -9,7 +9,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family:  "Inter Tight", "Inter Tight Placeholder" !important;
+    /* font-family:  "Inter Tight", "Inter Tight Placeholder" !important; */
+    font-family: "Roboto Mono", monospace;
     letter-spacing: normal ;
    
   

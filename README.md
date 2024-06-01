@@ -4,5 +4,6 @@ This is my personal portfolio
 
 things to do
 
-* animation
-* navbar sticky
+* Work on the MENU button
+* or you can make that the dark mode
+

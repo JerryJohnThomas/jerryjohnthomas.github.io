@@ -16,8 +16,6 @@ import { projectsData } from "./Data";
 function Home() {
     return (
         <>
-            <div className="home_container">
-                
                 <Navbar />
                 <IntroTitle />
                 <Work />
@@ -34,7 +32,6 @@ function Home() {
                     </div>
                 </motion.div>
                 <Footer />
-            </div>
         </>
     );
 }
