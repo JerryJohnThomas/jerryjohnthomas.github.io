@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import TimedEvent from "./TimedEvent";
-import { educationData } from "./workData";
+import { educationData } from "./Data";
 
 function Education() {
     return (

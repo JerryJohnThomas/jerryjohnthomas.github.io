@@ -16,7 +16,7 @@ function IntroTitle() {
                         </div>
                         <div className="header_subtitle intro_subtitle ">
                             <div>
-                                I'm a software engineer with experience in Building Applications, graphics. Passionate about applying AI, particularly
+                                I'm a software engineer with experience in building applications, graphics. Passionate about applying AI, particularly
                                 RL, to solve real-world problems.
                             </div>
                         </div>

@@ -1,17 +1,17 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import projectsData from "../projectsData";
 import Navbar from "../pages/Navbar";
 import "./ProjectDetails.css";
 import { GoArrowUpRight } from "react-icons/go";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+import { projectsData } from "../pages/Data";
 
 function ProjectDetails() {
     useEffect(() => {
         // Scroll to the top of the page when the component mounts
         window.scrollTo(0, 0);
-    }, []);
+    }, []); 
 
     const { goto } = useParams();
     const project = projectsData.find((proj) => proj.goto === goto);

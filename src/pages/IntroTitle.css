@@ -1,5 +1,4 @@
 .intro_subtitle {
-    /* background-color: orange; */
     margin-top: 50px;
     font-size: 26px;
     display: flex;
@@ -9,7 +8,11 @@
     padding: 0 10vw;
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
+    font-family:  "Inter Tight", "Inter Tight Placeholder" !important;
+    letter-spacing: normal ;
+   
+  
 }
 
 .intro_title_container {
