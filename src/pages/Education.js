@@ -1,21 +1,21 @@
 import React from "react";
 import { motion } from "framer-motion";
 import TimedEvent from "./TimedEvent";
-import { workData } from "./workData";
+import { educationData } from "./workData";
 
-function Work() {
+function Education() {
     return (
         <div className="page1">
             <div className="work_container">
                 <div className="header_text">
                     <div className="intro_title_container  pd_title work_title">
                         <motion.div initial={{ y: "120%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }}>
-                            Work  Experience
+                            Education
                         </motion.div>
                     </div>
                 </div>
                 <div className="te_global_container">
-                    {workData.map((data, id) => {
+                    {educationData.map((data, id) => {
                         return (
                             <TimedEvent
                                 key={`work-${id}`}
@@ -34,4 +34,4 @@ function Work() {
     );
 }
 
-export default Work;
+export default Education;

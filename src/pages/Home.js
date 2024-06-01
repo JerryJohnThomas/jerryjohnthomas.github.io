@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import ExperimentTitle from "./ExperimentTitle";
 import IntroTitle from "./IntroTitle"
 import Work from "./Work";
+import Education from "./Education";
 
 function Home() {
     return (
@@ -19,8 +20,9 @@ function Home() {
                 <Navbar />
                 <IntroTitle />
                 <Work />
+                <Education />
                 <ExperimentTitle />
-                {/* <motion.div initial={{ y: "20%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.2 }}>
+                <motion.div initial={{ y: "20%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.2 }}>
                     <div className="page2">
                         <div className="card-container">
                             {projectsData.map((data, id) => {
@@ -28,7 +30,7 @@ function Home() {
                             })}
                         </div>
                     </div>
-                </motion.div> */}
+                </motion.div>
                 <Footer />
             </div>
         </>

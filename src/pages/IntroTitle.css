@@ -3,21 +3,19 @@
     margin-top: 50px;
     font-size: 26px;
     display: flex;
-    /* width: 80vw; */
+    line-height: normal;
+    text-align: center;
 
-    padding: 0 10vw ;
+    padding: 0 10vw;
     align-items: center;
     justify-content: center;
+    text-align: left;
 }
 
 .intro_title_container {
 }
 
-.intro_container {
-}
-
-
-.normal_subtitle{
+.normal_subtitle {
     font-family: "Inter Tight", "Inter Tight Placeholder", sans-serif;
     font-size: 32px;
     color: rgb(82, 82, 82);
@@ -25,6 +23,46 @@
     margin: 5px 0;
 }
 
-.te_global_container{
-    margin: 8vh 0;
+.te_global_container {
+    /* height: 100%; */
+    margin: 8vh auto 2vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro_container {
+    font-size: 137px;
+    font-family: "Inter Tight", "sans-serif";
+    font-weight: 800;
+    margin: 10vh 0;
+    padding: 5vh 0;
+    width: 100vw;
+    height: 30vh;
+}
+
+/* This is working to oppose intro container,
+ this is defined after intro container
+ DO not change order
+*/
+.work_container {
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .intro_subtitle {
+        line-height: 24px;
+        font-size: 20px;
+    }
+
+    .intro_container {
+        font-size: 54px;
+        padding: 10vh 0 10vh 0;
+        /* margin: 10vh 0 6vh; */
+        height: 50vh;
+    }
+    .work_container {
+        height: 100%;
+    }
 }

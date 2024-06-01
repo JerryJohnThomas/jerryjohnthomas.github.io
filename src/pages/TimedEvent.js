@@ -1,7 +1,7 @@
 import React from "react";
 import "./TimedEvent.css";
 
-function TimedEvent({ title, location, subtitle, description, time }) {
+function TimedEvent({ title, location, subtitle, description, time, phTime }) {
     return (
         <>
             <div className="te_conatiner">
@@ -11,7 +11,8 @@ function TimedEvent({ title, location, subtitle, description, time }) {
                             <div className="te_title">{title}</div>
                             <div className="te_location">{location}</div>
                         </div>
-                        <div className="te_time">{time}</div>
+                        <div className="te_time te_timeOpa">{time}</div>
+                        <div className="te_time te_phtimeOpa">{phTime}</div>
                     </div>
                     <div className="te_subtitle">{subtitle}</div>
                     <div className="te_des">{description}</div>
