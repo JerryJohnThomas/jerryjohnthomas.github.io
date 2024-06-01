@@ -1,0 +1,30 @@
+.intro_subtitle {
+    /* background-color: orange; */
+    margin-top: 50px;
+    font-size: 26px;
+    display: flex;
+    /* width: 80vw; */
+
+    padding: 0 10vw ;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro_title_container {
+}
+
+.intro_container {
+}
+
+
+.normal_subtitle{
+    font-family: "Inter Tight", "Inter Tight Placeholder", sans-serif;
+    font-size: 32px;
+    color: rgb(82, 82, 82);
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.te_global_container{
+    margin: 8vh 0;
+}
