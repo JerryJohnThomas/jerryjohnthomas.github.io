@@ -9,7 +9,7 @@ function IntroTitle() {
             <div className="page1">
                 <div className="intro_container">
                     <div className="header_text">
-                        <div className="intro_title_container">
+                        <div className="intro_title_container jerry_intro">
                             <motion.div initial={{ y: "120%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }}>
                                 Jerry John Thomas
                             </motion.div>

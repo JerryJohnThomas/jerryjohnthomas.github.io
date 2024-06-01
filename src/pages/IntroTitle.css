@@ -16,6 +16,15 @@
 }
 
 .intro_title_container {
+    overflow: hidden;
+}
+
+
+/* For screens larger than 600px (typical desktop screens) */
+@media (min-width: 600px) {
+    .jerry_intro {
+        height: 140px;
+    }
 }
 
 .normal_subtitle {
@@ -28,7 +37,7 @@
 
 .te_global_container {
     /* height: 100%; */
-    margin: 8vh auto 2vh auto;
+    margin: 4vh auto 2vh auto;
     display: flex;
     align-items: center;
     justify-content: center;

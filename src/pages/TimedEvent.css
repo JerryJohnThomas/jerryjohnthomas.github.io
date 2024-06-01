@@ -79,7 +79,9 @@
     background-color: rgb(134, 218, 134);
     /* color: white; */
 }
-
+.work_title{
+    min-height: 74px !important;
+}
 
 @media (max-width: 768px) {
     /* elements */
@@ -127,6 +129,7 @@
     }
 
     .work_title{
+        min-height: 60px !important;
         font-size: 60px !important;
         width: 80vw !important;
         margin-left: 10vw !important;

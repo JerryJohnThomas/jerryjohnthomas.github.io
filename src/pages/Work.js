@@ -10,25 +10,27 @@ function Work() {
                 <div className="header_text">
                     <div className="intro_title_container  pd_title work_title">
                         <motion.div initial={{ y: "120%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }}>
-                            Work  Experience
+                            Work Experience
                         </motion.div>
                     </div>
                 </div>
-                <div className="te_global_container">
-                    {workData.map((data, id) => {
-                        return (
-                            <TimedEvent
-                                key={`work-${id}`}
-                                phTime={data.phTime}
-                                title={data.title}
-                                subtitle={data.subtitle}
-                                location={data.location}
-                                time={data.time}
-                                description={data.description}
-                            />
-                        );
-                    })}
-                </div>
+                <motion.div initial={{ y: "120%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 , delay:0.2}}>
+                    <div className="te_global_container">
+                        {workData.map((data, id) => {
+                            return (
+                                <TimedEvent
+                                    key={`work-${id}`}
+                                    phTime={data.phTime}
+                                    title={data.title}
+                                    subtitle={data.subtitle}
+                                    location={data.location}
+                                    time={data.time}
+                                    description={data.description}
+                                />
+                            );
+                        })}
+                    </div>
+                </motion.div>
             </div>
         </div>
     );
