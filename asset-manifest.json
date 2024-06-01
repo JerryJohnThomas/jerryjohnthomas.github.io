@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jerrygameagents/static/css/main.7e659502.css",
-    "main.js": "/jerrygameagents/static/js/main.aebbea66.js",
-    "static/js/453.7f8bd57f.chunk.js": "/jerrygameagents/static/js/453.7f8bd57f.chunk.js",
-    "index.html": "/jerrygameagents/index.html",
-    "main.7e659502.css.map": "/jerrygameagents/static/css/main.7e659502.css.map",
-    "main.aebbea66.js.map": "/jerrygameagents/static/js/main.aebbea66.js.map",
-    "453.7f8bd57f.chunk.js.map": "/jerrygameagents/static/js/453.7f8bd57f.chunk.js.map"
+    "main.css": "/static/css/main.7e659502.css",
+    "main.js": "/static/js/main.cf52ea89.js",
+    "static/js/453.7f8bd57f.chunk.js": "/static/js/453.7f8bd57f.chunk.js",
+    "index.html": "/index.html",
+    "main.7e659502.css.map": "/static/css/main.7e659502.css.map",
+    "main.cf52ea89.js.map": "/static/js/main.cf52ea89.js.map",
+    "453.7f8bd57f.chunk.js.map": "/static/js/453.7f8bd57f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e659502.css",
-    "static/js/main.aebbea66.js"
+    "static/js/main.cf52ea89.js"
   ]
 }
