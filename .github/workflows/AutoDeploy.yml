@@ -1,4 +1,4 @@
-name: Deploy on Push, to github pages
+name: AutoDeploy
 
 on:
   push:
