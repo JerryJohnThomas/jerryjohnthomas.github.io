@@ -39,7 +39,7 @@
 }
 
 .pd_title {
-    margin: 5vh 0 0 0;
+    margin: 5vh 0 5vh 0;
     font-family: "Inter Tight", "Inter Tight Placeholder", sans-serif;
     font-size: 64px;
     font-weight: 400;
@@ -85,4 +85,9 @@
     .pd_left_bottom {
       margin-top: 10vh;
     }
+    .pd_title {
+        margin: 5vh 0 0vh 0;
+    }
+    
 }
+

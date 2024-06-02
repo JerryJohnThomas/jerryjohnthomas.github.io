@@ -79,7 +79,7 @@ export const UnderGradProjectsData = [
         link: "https://github.com/JerryJohnThomas/PlexShare",
     },
     {
-        title: "Lead Developer of Petrichor Website",
+        title: "Petrichor Website",
         // subtitle: "Under Ramaswamy Krishnan-Chittur, Microsoft",
         time: "Nov 2021 - Dec 2021",
         phTime: "Nov 21 - Dec 21",
