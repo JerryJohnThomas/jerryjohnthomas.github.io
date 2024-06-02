@@ -86,7 +86,6 @@
 /* ultrawide monitors */
 @media (min-height: 1000px) {
     .intro_container {
-        background-color: orange;
         margin: 10vh 0;
     }
 }
