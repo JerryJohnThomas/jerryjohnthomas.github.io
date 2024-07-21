@@ -9,6 +9,7 @@ import { projectsData } from "../pages/Data";
 import ReactGA from 'react-ga4';
 
 function ProjectDetails() {
+    
     useEffect(() => {
         ReactGA.initialize('G-QG1ZRZHFQB');
         ReactGA.send({ hitType: "pageview", page: window.location.pathname });
