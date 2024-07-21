@@ -2,9 +2,16 @@ import React from "react";
 import "./TimedEvent.css";
 import { GoArrowUpRight } from "react-icons/go";
 import { Link } from "react-router-dom";
+import ReactGA from 'react-ga4';
 
 function TimedEvent({ title, location, subtitle, description, time, phTime, link }) {
-    return (
+    const handleButtonClick = () => {
+        ReactGA.event({
+          category: 'User',
+          action: `Project Link :+${link}`
+        });
+      };
+      return (
         <>
             <div className="te_conatiner">
                 <div className="te_left">
@@ -14,7 +21,7 @@ function TimedEvent({ title, location, subtitle, description, time, phTime, link
                             {location ? <div className="te_location">{location}</div> : null}
                             {link ? (
                                 <div className="te_location te_link">
-                                    <Link to={link} target="_blank">
+                                    <Link to={link} onClick={handleButtonClick} target="_blank">
                                         MORE <GoArrowUpRight />
                                     </Link>
                                 </div>

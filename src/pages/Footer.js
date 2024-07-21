@@ -2,8 +2,10 @@ import React from "react";
 import "./Footer.css";
 import { GoArrowUpRight } from "react-icons/go";
 import HoverText from "./HoverText"
+import ReactGA from 'react-ga4';
 
 function Footer() {
+
     
     return (
         <div className="footer_container">

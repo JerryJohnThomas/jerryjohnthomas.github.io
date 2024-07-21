@@ -6,8 +6,14 @@ import { GoArrowUpRight } from "react-icons/go";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { projectsData } from "../pages/Data";
+import ReactGA from 'react-ga4';
 
 function ProjectDetails() {
+    useEffect(() => {
+        ReactGA.initialize('G-QG1ZRZHFQB');
+        ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+      }, []);
+
     useEffect(() => {
         // Scroll to the top of the page when the component mounts
         window.scrollTo(0, 0);

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import Sample from "./Sample";
 import Sample2 from "./Sample2";
@@ -12,8 +12,13 @@ import Work from "./Work";
 import Education from "./Education";
 import UnderGradProjects from "./UnderGradProjects";
 import { projectsData } from "./Data";
+import ReactGA from 'react-ga4';
 
 function Home() {
+    useEffect(() => {
+        ReactGA.initialize('G-QG1ZRZHFQB');
+        ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+      }, []);
     return (
         <>
                 <Navbar />
