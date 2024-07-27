@@ -7,36 +7,36 @@ import Card from "../Components/Card";
 import Footer from "./Footer";
 import { motion } from "framer-motion";
 import ExperimentTitle from "./ExperimentTitle";
-import IntroTitle from "./IntroTitle"
+import IntroTitle from "./IntroTitle";
 import Work from "./Work";
 import Education from "./Education";
 import UnderGradProjects from "./UnderGradProjects";
 import { projectsData } from "./Data";
-import ReactGA from 'react-ga4';
+import ReactGA from "react-ga4";
 
 function Home() {
     useEffect(() => {
-        ReactGA.initialize('G-QG1ZRZHFQB');
+        ReactGA.initialize("G-QG1ZRZHFQB");
         ReactGA.send({ hitType: "pageview", page: window.location.pathname });
-      }, []);
+    }, []);
     return (
         <>
-                <Navbar />
-                <IntroTitle />
-                <Work />
-                <Education />
-                <UnderGradProjects />
-                <ExperimentTitle />
-                <motion.div initial={{ y: "20%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.2 }}>
-                    <div className="page2">
-                        <div className="card-container">
-                            {projectsData.map((data, id) => {
-                                return <Card data={data} key={id} id={id} />;
-                            })}
-                        </div>
+            <Navbar />
+            <IntroTitle />
+            <Work />
+            <Education />
+            <UnderGradProjects />
+            <ExperimentTitle />
+            <motion.div initial={{ y: "20%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.2 }}>
+                <div className="page2">
+                    <div className="card-container">
+                        {projectsData.map((data, id) => {
+                            return <Card data={data} key={id} id={id} />;
+                        })}
                     </div>
-                </motion.div>
-                <Footer />
+                </div>
+            </motion.div>
+            <Footer />
         </>
     );
 }
