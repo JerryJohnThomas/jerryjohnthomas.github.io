@@ -13,7 +13,7 @@ function HoverText({ text, hoverText, to, mail }) {
     const handleButtonClick = () => {
         ReactGA.event({
           category: 'User',
-          action: `Connect button :+${to}`
+          action: `Exp :+${text}`
         });
       };
     return (

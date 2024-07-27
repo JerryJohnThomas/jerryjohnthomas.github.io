@@ -8,7 +8,7 @@ function TimedEvent({ title, location, subtitle, description, time, phTime, link
     const handleButtonClick = () => {
         ReactGA.event({
           category: 'User',
-          action: `Project Link :+${link}`
+          action: `Project :+${title}`
         });
       };
       return (
