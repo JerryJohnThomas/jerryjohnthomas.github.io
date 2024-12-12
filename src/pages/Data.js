@@ -50,6 +50,18 @@ export const educationData = [
     },
 ];
 
+export const ResearchData = [
+    {
+        title: "Reinforcement Learning in Finance",
+        subtitle: "with Ishwar Govind and Dr. Chandra Shekar Lakshminarayanan",
+        time: "Dec 2024",
+        phTime: "Dec 24",
+        description: `Explores challenges in portfolio management with deep reinforcement learning, focusing on baseline comparisons and policy evaluation. Using a synthetic market based on the BEKK model, it highlights varying agent performance and showcases alignment with maximum Sharpe Ratio optimal policies for agents excelling in the simulated environment.`,
+        link: "/Portfolio_RL.pdf",
+    },
+];
+
+
 export const UnderGradProjectsData = [
     {
         title: "Reinforcement Learning in Finance",
