@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 18
       - run: npm ci
-      - run: npm run build
+      - run: CI='' npm run build
       - uses: actions/upload-pages-artifact@v3 # v3 uses upload-artifact@v4 internally
         with:
           path: ./build
