@@ -19,7 +19,7 @@ jobs:
           node-version: 18
       - run: npm ci
       - run: npm run build
-      - uses: actions/upload-pages-artifact@v2
+      - uses: actions/upload-pages-artifact@v1 # <--- pinned to v1 to avoid error
         with:
           path: ./build
 
