@@ -57,6 +57,18 @@
     border-top-right-radius: 32px;
 }
 
+/* 13-inch laptops optimization */
+@media (min-width: 1024px) and (max-width: 1466px) {
+    .header_container {
+        font-size: 110px; /* 20% reduction from 137px */
+    }
+    
+    .header_subtitle {
+        font-size: 16px; /* 20% reduction from 20px */
+        line-height: 19px;
+    }
+}
+
 @media (min-width: 1000px) {
     .header_container {
         margin: 10vh 0 23vh;

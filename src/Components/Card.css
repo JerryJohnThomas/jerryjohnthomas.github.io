@@ -141,3 +141,16 @@
         scale: 0.7;
     }
 }
+
+/* 13-inch laptops optimization */
+@media (min-width: 1024px) and (max-width: 1466px) {
+    .card-title {
+        font-size: 51px; /* 20% reduction from 64px */
+        letter-spacing: -1.6px; /* 20% reduction from -2px */
+    }
+    
+    .tag {
+        font-size: 13px; /* 20% reduction from 16px */
+        line-height: 19px; /* 20% reduction from 24px */
+    }
+}

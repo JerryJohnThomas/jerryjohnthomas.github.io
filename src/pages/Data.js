@@ -57,7 +57,7 @@ export const ResearchData = [
         time: "Dec 2024",
         phTime: "Dec 24",
         description: `Explores challenges in portfolio management with deep reinforcement learning, focusing on baseline comparisons and policy evaluation. Using a synthetic market based on the BEKK model, it highlights varying agent performance and showcases alignment with maximum Sharpe Ratio optimal policies for agents excelling in the simulated environment.`,
-        link: "/Portfolio_RL.pdf",
+        link: "https://dl.acm.org/doi/10.1145/3703323.3703333",
     },
 ];
 
