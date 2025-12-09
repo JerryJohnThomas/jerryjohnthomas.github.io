@@ -69,7 +69,7 @@ export const UnderGradProjectsData = [
         time: "Nov 2025",
         phTime: "Nov 25",
         description: `Qualified for Stage 2 (Top 5 Finish) in the NeurIPS 2025 MindGames Challenge (Workshop Track) by developing a hybrid RL + LLM social-deduction agent (“DeceptionNet”) integrating imitation learning and PPO fine-tuning.`,
-        // link: "https://drive.google.com/file/d/1k8_ZApo1j3HCwiLGyFcKw-6ddkOAi4bp/view",
+        link: "https://github.com/JerryJohnThomas/deceptionNet",
     },
     {
         title: "Reinforcement Learning in Finance",
