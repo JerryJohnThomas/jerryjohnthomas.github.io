@@ -1,0 +1,56 @@
+/* Force both product screenshots to identical dimensions regardless of source
+   resolution/aspect, so the two cards line up exactly. Scoped to Products only. */
+.products-grid .card-image-container {
+    aspect-ratio: 16 / 10;
+}
+
+.products-grid .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+/* Understated "open for work" CTA below the product cards */
+.products_cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 24px 16px 8px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    color: #555;
+}
+
+.products_cta_link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: #111;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid #111;
+    padding-bottom: 2px;
+    transition: opacity 0.2s ease;
+}
+
+.products_cta_link:hover {
+    opacity: 0.6;
+}
+
+.products_cta_arrow {
+    transition: transform 0.2s ease;
+}
+
+.products_cta_link:hover .products_cta_arrow {
+    transform: translate(2px, -2px);
+}
+
+@media (max-width: 600px) {
+    .products_cta {
+        font-size: 14px;
+        text-align: center;
+    }
+}

@@ -1,7 +1,7 @@
 export const workData = [
     {
         title: "Ingram Micro",
-        subtitle: "Software Engineer",
+        subtitle: "Senior Software Engineer",
         location: "Chennai",
         time: "Jun 2023 - Present",
         phTime: "Jun 23 - Present",
@@ -194,5 +194,29 @@ export const projectsData = [
         description: "Reinforcement Learning Series on Medium",
         goto: "RLseries",
         tags: ["RL", "Medium"],
+    },
+];
+
+export const productsData = [
+    {
+        oneWord: "edenAlpha",
+        title: "edenAlpha",
+        link: "https://edenalpha.in",
+        pic: "images/edenAlpha.png",
+        description:
+            "Think it. Test it. Trade it. An end-to-end algo-trading engine that takes a strategy from idea to live execution on NSE/BSE, backtest on real market data, then deploy to paper or live in one click. Multi-broker (Fyers + Groww) and built sim2real to kill the backtest-to-live gap.",
+        goto: "edenalpha",
+        tags: ["LIVE", "AlgoTrading", "Agentic"],
+    },
+    {
+        oneWord: "veritasProbe",
+        title: "veritasProbe",
+        link: "https://veritasprobe.com",
+        pic: "images/veritas.png",
+        description:
+            "The LMS, reimagined for the age of AI. A 2026-native learning platform where courses, an academy, and live event programs run themselves AI-assisted content, capacity-managed registrations, auto-generated posters, faculty pages and short links. Shipped to production and serving a real community today.",
+        goto: "veritasprobe",
+        tags: ["AI LMS", "2026 Native"],
+        isBackgroundWhite: true,
     },
 ];

@@ -14,6 +14,7 @@ import UnderGradProjects from "./UnderGradProjects";
 import { projectsData } from "./Data";
 import ReactGA from "react-ga4";
 import Research from "./Research";
+import Products from "./Products";
 
 function Home() {
     useEffect(() => {
@@ -28,6 +29,7 @@ function Home() {
             <Education />
             <Research />
             <UnderGradProjects />
+            <Products />
             <ExperimentTitle />
             <motion.div initial={{ y: "20%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.2 }}>
                 <div className="page2">

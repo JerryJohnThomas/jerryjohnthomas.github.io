@@ -23,7 +23,7 @@ function Card({ data, id }) {
                         <GoArrowUpRight size={25} />
                     </div>
                     <img src={`${process.env.PUBLIC_URL}/${data.pic}`} alt={data.title} className="card-image" />
-                    <div className="card-title">{data.oneWord}</div>
+                    <div className={`card-title${data.isBackgroundWhite ? " card-title-dark" : ""}`}>{data.oneWord}</div>
                 </div>
                 <p className="card-content">{data.descriptioncontent}</p>
             </Link>

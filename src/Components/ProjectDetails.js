@@ -5,7 +5,7 @@ import "./ProjectDetails.css";
 import { GoArrowUpRight } from "react-icons/go";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { projectsData } from "../pages/Data";
+import { projectsData, productsData } from "../pages/Data";
 import ReactGA from 'react-ga4';
 
 function ProjectDetails() {
@@ -21,7 +21,7 @@ function ProjectDetails() {
     }, []); 
 
     const { goto } = useParams();
-    const project = projectsData.find((proj) => proj.goto === goto);
+    const project = [...projectsData, ...productsData].find((proj) => proj.goto === goto);
 
     if (!project) {
         return <div>Project not found</div>;
