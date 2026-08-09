@@ -119,6 +119,16 @@ export const UnderGradProjectsData = [
 
 export const projectsData = [
     {
+        oneWord: "RL Diagnostics Lab",
+        title: "RL Diagnostics Lab",
+        link: "https://rl-labs.netlify.app/",
+        pic: "images/rllabs.png",
+        description:
+            "A hands-on lab for understanding reinforcement learning from the inside out. Build environments, train agents, and visualize what's happening under the hood, no black boxes. The idea: failure modes like reward hacking and exploration collapse look the same on Pong as they do on RLHF, so build diagnostic intuition on the small stuff first. Experiment 1 (Pong via Q-learning) is live, with GridWorld and CartPole on the way.",
+        goto: "rllabs",
+        tags: ["Diagnostics", "RL"],
+    },
+    {
         oneWord: "AI Flappy Bird",
         title: "Flappy Bird via NEAT",
         link: "https://romantic-bhaskara-dc0b13.netlify.app/",
