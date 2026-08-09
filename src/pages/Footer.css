@@ -22,10 +22,12 @@
 .connect_links {
     position: relative;
     display: flex;
-    width: 50vw;
+    flex-wrap: nowrap;
+    gap: 40px;
+    width: 70vw;
     text-transform: uppercase;
     justify-content: space-between;
-    align-items: space;
+    align-items: center;
     font-family: "Roboto Mono", monospace;
     font-weight: 400;
     font-size: 32px;
@@ -56,10 +58,11 @@
         position: relative;
         display: flex;
         flex-direction: column;
+        gap: 16px;
         width: 50vw;
         text-transform: uppercase;
         justify-content: space-between;
-        align-items: space;
+        align-items: flex-start;
         font-family: "Roboto Mono", monospace;
         font-weight: 400;
         font-size: 24px;
