@@ -16,6 +16,13 @@ function Footer() {
                     <HoverText text="Github" hoverText="G7Th8B" to="https://github.com/JerryJohnThomas/"></HoverText>
                     <HoverText text="Medium" hoverText="M3d1uW"to="https://medium.com/@jerryjohnthomas"></HoverText>
                     <HoverText text="Gmail" hoverText="gWaiL" mail="jerryjohnthomascareer@gmail.com"></HoverText>
+                    <div className="hover-text-container">
+                        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"
+                           onClick={() => ReactGA.event({ category: 'User', action: 'Exp :+Resume' })}>
+                            <span className="hover-text" data-hover="R3sUm3">Résumé</span>
+                            <GoArrowUpRight />
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="footer_right"></div>
