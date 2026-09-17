@@ -219,13 +219,13 @@ export const productsData = [
         tags: ["LIVE", "AlgoTrading", "Agentic"],
     },
     {
-        oneWord: "veritasProbe",
-        title: "veritasProbe",
-        link: "https://veritasprobe.com",
+        oneWord: "vineStack",
+        title: "cineStack",
+        link: "https://vinestack.app",
         pic: "images/veritas.png",
         description:
             "The LMS, reimagined for the age of AI. A 2026-native learning platform where courses, an academy, and live event programs run themselves AI-assisted content, capacity-managed registrations, auto-generated posters, faculty pages and short links. Shipped to production and serving a real community today.",
-        goto: "veritasprobe",
+        goto: "vinestack",
         tags: ["AI LMS", "2026 Native"],
         isBackgroundWhite: true,
     },
